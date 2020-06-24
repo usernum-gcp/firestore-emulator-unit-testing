@@ -9,6 +9,11 @@ service cloud.firestore {
     match /readonly/{docId} {
           allow read: if true;
           allow write: if false;
-        }
+    }
+
+    match /users/{userId} {
+      allow read: if true;
+      allow write: if (request.auth.uid == userId);
+    }
   }
 }

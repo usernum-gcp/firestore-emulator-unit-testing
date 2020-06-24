@@ -1,5 +1,8 @@
 # firestore-emulator-unit-testing
 
+https://firebase.google.com/docs/functions/unit-testing
+
+
 
 setup firebase project - just do it as usual.
 firebase login
