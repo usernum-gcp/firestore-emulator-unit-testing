@@ -19,4 +19,6 @@ git clone ...
 npm install
 
 ----
-firebase emulators:start
+from new shell run: firebase emulators:start
+now local firestore instance is available here: http://localhost:4000/firestore/posts/public_post
+ 
